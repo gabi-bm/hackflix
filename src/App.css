@@ -1,6 +1,47 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
+
+.navbar-brand, 
+ .nav-link {
+  color: white !important;
+}
+
+/* MODAL START */
+
+.modal-60w {
+  min-width: 60%;
+}
+
+.modal-div-custom {
+  width: 100%;
+  display: flex;
+}
+
+.modal-div-custom img {
+  width: 20rem;
+  height: 28rem;
+
+}
+
+.modal-text {
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.overview {
+  margin-top: 1.5rem;
+}
+
+.overview span {
+  display: block;
+  margin-bottom: 0.7rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* MODAL END */
 
 .App-logo {
   height: 40vmin;

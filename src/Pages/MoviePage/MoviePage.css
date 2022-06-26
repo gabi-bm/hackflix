@@ -1,0 +1,88 @@
+.movie-hero {
+  position: absolute;
+  z-index: 0;
+  top: 56px;
+  width: 100%;
+  height: calc(100% - 56px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(33, 37, 41, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: start;
+}
+
+.movie-hero-footer {
+  width: 100%;
+  height: 12rem;
+  max-height: 50vh;
+  color: white;
+  background-color: rgba(33, 37, 41, 0.8);
+}
+
+.spinner-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(33, 37, 41, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.movie-icons .rating {
+  display: flex;
+}
+
+.vote-average {
+  font-size: 1.4rem;
+}
+
+.rating svg {
+  transform: scale(1.5);
+  color:rgb(196, 196, 66);
+  padding-right: 0.5rem;
+  align-self: center;
+}
+
+
+.popularity svg {
+  transform: scale(1.5);
+  color:rgb(38, 176, 107);
+  padding-right: 0.5rem;
+  align-self: center;
+}
+
+.popularity-number {
+  font-size: 1.4rem;
+}
+
+.movie-icons .popularity {
+  display: flex;
+}
+
+.icons-title {
+  display: block;
+  font-size: 0.7rem;
+}
+
+.play-icon {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+  top: 3rem;
+  right: 5rem;
+  transform: scale(3);
+}
+
+.play-icon:hover {
+  transform: scale(3.4);
+  cursor: pointer;
+}
