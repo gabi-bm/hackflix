@@ -9,6 +9,7 @@ function NotFound({ message }) {
     >
       <h1>{message}</h1>
       <span>1</span>
+      <p>PRobando tomate</p>
     </div>
   );
 }
