@@ -8,6 +8,7 @@ function NotFound({ message }) {
       style={{ backgroundImage: "url(" + notFound + ")" }}
     >
       <h1>{message}</h1>
+      <span>1</span>
     </div>
   );
 }
